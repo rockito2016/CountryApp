@@ -3,13 +3,18 @@
   <hr />
 
   <ul class="list-group">
-    <li RouterLink="home"
-    class="list-group-item">
-    Home Page
+    <li
+    routerLink=""
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true}"
+    class="list-group-item"
+    >Home Page
   </li>
-    <li RouterLink="about"
-    class="list-group-item active">
-    About
-  </li>
+    <li
+    routerLink=about
+    routerLinkActive="active"
+    class="list-group-item"
+    >About
+    </li>
   </ul>
 </div>
