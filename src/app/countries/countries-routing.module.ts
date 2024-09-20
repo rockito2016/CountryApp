@@ -4,7 +4,6 @@ import { ByCapitalPageComponent } from './pages/by-capital-page/by-capital-page.
 import { ByCountriePageComponent } from './pages/by-countrie-page/by-countrie-page.component';
 import { ByRegionPageComponent } from './pages/by-region-page/by-region-page.component';
 import { CountryPageComponent } from './pages/country-page/country-page.component';
-import { Router } from 'express';
 
 const routes: Routes = [
   {
